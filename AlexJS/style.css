@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav, footer{
+    height: 60px;
+    background-color: rgba(33, 17, 67, 0.712);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.noteFields{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 40px auto 40px auto;
+    border: 1px solid #ccc;
+    padding: 60px;
+    border-radius: 16px;
+}
+.nav-reprovado{
+    background-color: red;
+    color: white;
+}
+.nav-aprovado{
+    background-color: green;
+    color: white;
+}
+.nav-recuperacao{    
+    background-color: yellow;
+    color: red;
+}
+.btn{
+    margin-top: 32px;
+    background-color: rgba(33, 17, 67, 0.712);
+    border: none;
+    border-radius: 2px;
+    padding: 6px;
+    color: white;
+}
+.media, .mensagem{
+    margin-top: 32px;
+}

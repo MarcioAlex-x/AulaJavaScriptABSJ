@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav id="nav">
+        Portal do Aluno
+    </nav>
+
+    <div class="noteFields">
+        <label for="name">Nome do Aluno</label>
+        <input type="text" id="name">
+
+        <label for="n1">Nonta 1</label>
+        <input type="text" id="n1">
+
+        <label for="n2">Nota 2</label>
+        <input type="text" id="n2">
+
+        <label for="n3">Nota 3</label>
+        <input type="text" id="n3">
+
+        <button class="btn" id="btn" onclick="calcularMedia()">Calcular Nota</button>
+
+        <div id="media" class="media"></div>
+
+        <div id="mensagem" class="mensagem"></div>
+    </div>
+
+    <footer id="footer">
+        &copy;Todos os direitos reservados.
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
